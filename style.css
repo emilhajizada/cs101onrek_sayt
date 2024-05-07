@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.52), rgba(0, 0, 0, 0.53)),
+        url('https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg');
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_box {
+    text-align: center;
+}
+
+.hero_box__header {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.hero_box__content {
+    font-size: 2rem;
+    color: white;
+}
